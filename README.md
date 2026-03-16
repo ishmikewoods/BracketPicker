@@ -2,6 +2,8 @@
 
 A weighted RNG bracket picker for the 2026 NCAA Men's Basketball Tournament. Generates complete bracket predictions using pseudo-arbitrary logic that produces realistic but unpredictable results.
 
+**View the selected bracket:** [ishmikewoods.github.io/BracketPicker](https://ishmikewoods.github.io/BracketPicker)
+
 ## Usage
 
 ```
