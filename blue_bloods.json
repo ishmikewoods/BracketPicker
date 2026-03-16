@@ -1,0 +1,21 @@
+{
+  "description": "Blue blood and near-blue-blood programs with historically strong NCAA tournament performance. Tier 1 = true blue bloods, Tier 2 = near-blue-bloods with strong recent tournament success.",
+  "power_conferences": ["ACC", "Big Ten", "Big 12", "SEC", "Big East"],
+  "blue_bloods": {
+    "tier1": [
+      { "team": "Duke", "note": "6 titles, 17 Final Fours" },
+      { "team": "Kansas", "note": "4 titles, 16 Final Fours" },
+      { "team": "UConn", "note": "5 titles (including 2023, 2024 back-to-back)" },
+      { "team": "Kentucky", "note": "8 titles, most all-time" },
+      { "team": "North Carolina", "note": "6 titles, 21 Final Fours" },
+      { "team": "UCLA", "note": "11 titles, most all-time" }
+    ],
+    "tier2": [
+      { "team": "Gonzaga", "note": "Perennial contender, 2 title game appearances" },
+      { "team": "Villanova", "note": "3 titles (2016, 2018)" },
+      { "team": "Michigan St", "note": "2 titles, 10 Final Fours under Izzo" },
+      { "team": "Florida", "note": "2 titles (2006, 2007 back-to-back)" },
+      { "team": "Houston", "note": "Multiple Final Fours, recent dominance" }
+    ]
+  }
+}

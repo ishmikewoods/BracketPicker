@@ -1,0 +1,55 @@
+{
+  "tournament": "2026 NCAA Men's Basketball Tournament",
+  "final_four_matchups": {
+    "semifinal1": ["East", "West"],
+    "semifinal2": ["South", "Midwest"]
+  },
+  "play_in_games": [
+    { "slot_region": "South", "slot_seed": 16, "team1": "Prairie View", "team1_conference": "SWAC", "team2": "Lehigh", "team2_conference": "Patriot League" },
+    { "slot_region": "Midwest", "slot_seed": 16, "team1": "UMBC", "team1_conference": "America East", "team2": "Howard", "team2_conference": "MEAC" },
+    { "slot_region": "West", "slot_seed": 11, "team1": "Texas", "team1_conference": "SEC", "team2": "NC State", "team2_conference": "ACC" },
+    { "slot_region": "Midwest", "slot_seed": 11, "team1": "Miami Ohio", "team1_conference": "MAC", "team2": "SMU", "team2_conference": "ACC" }
+  ],
+  "regions": {
+    "East": [
+      { "seed": 1, "team": "Duke", "conference": "ACC", "vs_seed": 16, "vs_team": "Siena", "vs_conference": "MAAC" },
+      { "seed": 8, "team": "Ohio State", "conference": "Big Ten", "vs_seed": 9, "vs_team": "TCU", "vs_conference": "Big 12" },
+      { "seed": 5, "team": "St. John's", "conference": "Big East", "vs_seed": 12, "vs_team": "Northern Iowa", "vs_conference": "MVC" },
+      { "seed": 4, "team": "Kansas", "conference": "Big 12", "vs_seed": 13, "vs_team": "CA Baptist", "vs_conference": "WAC" },
+      { "seed": 6, "team": "Louisville", "conference": "ACC", "vs_seed": 11, "vs_team": "South Florida", "vs_conference": "AAC" },
+      { "seed": 3, "team": "Michigan St", "conference": "Big Ten", "vs_seed": 14, "vs_team": "N Dakota St", "vs_conference": "Summit League" },
+      { "seed": 7, "team": "UCLA", "conference": "Big Ten", "vs_seed": 10, "vs_team": "UCF", "vs_conference": "Big 12" },
+      { "seed": 2, "team": "UConn", "conference": "Big East", "vs_seed": 15, "vs_team": "Furman", "vs_conference": "SoCon" }
+    ],
+    "West": [
+      { "seed": 1, "team": "Arizona", "conference": "Big 12", "vs_seed": 16, "vs_team": "Long Island", "vs_conference": "NEC" },
+      { "seed": 8, "team": "Villanova", "conference": "Big East", "vs_seed": 9, "vs_team": "Utah State", "vs_conference": "Mountain West" },
+      { "seed": 5, "team": "Wisconsin", "conference": "Big Ten", "vs_seed": 12, "vs_team": "High Point", "vs_conference": "Big South" },
+      { "seed": 4, "team": "Arkansas", "conference": "SEC", "vs_seed": 13, "vs_team": "Hawai'i", "vs_conference": "Big West" },
+      { "seed": 6, "team": "BYU", "conference": "Big 12", "vs_seed": 11, "vs_team": "TBD_PLAYIN_TEX_NCSU", "vs_conference": "TBD" },
+      { "seed": 3, "team": "Gonzaga", "conference": "WCC", "vs_seed": 14, "vs_team": "Kennesaw St", "vs_conference": "CUSA" },
+      { "seed": 7, "team": "Miami", "conference": "ACC", "vs_seed": 10, "vs_team": "Missouri", "vs_conference": "SEC" },
+      { "seed": 2, "team": "Purdue", "conference": "Big Ten", "vs_seed": 15, "vs_team": "Queens", "vs_conference": "ASUN" }
+    ],
+    "South": [
+      { "seed": 1, "team": "Florida", "conference": "SEC", "vs_seed": 16, "vs_team": "TBD_PLAYIN_PV_LEH", "vs_conference": "TBD" },
+      { "seed": 8, "team": "Clemson", "conference": "ACC", "vs_seed": 9, "vs_team": "Iowa", "vs_conference": "Big Ten" },
+      { "seed": 5, "team": "Vanderbilt", "conference": "SEC", "vs_seed": 12, "vs_team": "McNeese", "vs_conference": "Southland" },
+      { "seed": 4, "team": "Nebraska", "conference": "Big Ten", "vs_seed": 13, "vs_team": "Troy", "vs_conference": "Sun Belt" },
+      { "seed": 6, "team": "North Carolina", "conference": "ACC", "vs_seed": 11, "vs_team": "VCU", "vs_conference": "A-10" },
+      { "seed": 3, "team": "Illinois", "conference": "Big Ten", "vs_seed": 14, "vs_team": "Penn", "vs_conference": "Ivy League" },
+      { "seed": 7, "team": "Saint Mary's", "conference": "WCC", "vs_seed": 10, "vs_team": "Texas A&M", "vs_conference": "SEC" },
+      { "seed": 2, "team": "Houston", "conference": "Big 12", "vs_seed": 15, "vs_team": "Idaho", "vs_conference": "Big Sky" }
+    ],
+    "Midwest": [
+      { "seed": 1, "team": "Michigan", "conference": "Big Ten", "vs_seed": 16, "vs_team": "TBD_PLAYIN_UMBC_HOW", "vs_conference": "TBD" },
+      { "seed": 8, "team": "Georgia", "conference": "SEC", "vs_seed": 9, "vs_team": "Saint Louis", "vs_conference": "A-10" },
+      { "seed": 5, "team": "Texas Tech", "conference": "Big 12", "vs_seed": 12, "vs_team": "Akron", "vs_conference": "MAC" },
+      { "seed": 4, "team": "Alabama", "conference": "SEC", "vs_seed": 13, "vs_team": "Hofstra", "vs_conference": "CAA" },
+      { "seed": 6, "team": "Tennessee", "conference": "SEC", "vs_seed": 11, "vs_team": "TBD_PLAYIN_MOH_SMU", "vs_conference": "TBD" },
+      { "seed": 3, "team": "Virginia", "conference": "ACC", "vs_seed": 14, "vs_team": "Wright St", "vs_conference": "Horizon League" },
+      { "seed": 7, "team": "Kentucky", "conference": "SEC", "vs_seed": 10, "vs_team": "Santa Clara", "vs_conference": "WCC" },
+      { "seed": 2, "team": "Iowa State", "conference": "Big 12", "vs_seed": 15, "vs_team": "Tennessee St", "vs_conference": "OVC" }
+    ]
+  }
+}

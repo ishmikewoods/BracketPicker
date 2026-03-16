@@ -1,0 +1,31 @@
+{
+  "description": "Rivalry pairs among 2026 NCAA Tournament teams. Intensity: 3 = historic/intense, 2 = strong conference, 1 = moderate regional/conference.",
+  "rivalries": [
+    { "team1": "Duke", "team2": "North Carolina", "intensity": 3, "note": "Tobacco Road, arguably biggest rivalry in college basketball" },
+    { "team1": "Michigan", "team2": "Michigan St", "intensity": 3, "note": "In-state Big Ten rivalry" },
+    { "team1": "Ohio State", "team2": "Michigan", "intensity": 3, "note": "The Game - Big Ten, huge across all sports" },
+    { "team1": "Kansas", "team2": "Missouri", "intensity": 3, "note": "Border War, historic rivalry" },
+    { "team1": "Kentucky", "team2": "Louisville", "intensity": 3, "note": "In-state rivalry, deeply personal" },
+    { "team1": "Iowa", "team2": "Iowa State", "intensity": 3, "note": "Cy-Hawk, in-state rivalry" },
+    { "team1": "Alabama", "team2": "Tennessee", "intensity": 2, "note": "Third Saturday in October extends to basketball" },
+    { "team1": "Vanderbilt", "team2": "Tennessee", "intensity": 2, "note": "In-state SEC rivalry" },
+    { "team1": "UCLA", "team2": "Arizona", "intensity": 2, "note": "Former Pac-12 powerhouse matchup" },
+    { "team1": "Purdue", "team2": "Illinois", "intensity": 2, "note": "Big Ten rivalry" },
+    { "team1": "Purdue", "team2": "Ohio State", "intensity": 2, "note": "Big Ten rivalry" },
+    { "team1": "Iowa", "team2": "Illinois", "intensity": 2, "note": "Big Ten rivalry" },
+    { "team1": "North Carolina", "team2": "Virginia", "intensity": 2, "note": "ACC rivalry" },
+    { "team1": "Duke", "team2": "Louisville", "intensity": 2, "note": "ACC rivalry" },
+    { "team1": "Clemson", "team2": "North Carolina", "intensity": 2, "note": "ACC rivalry" },
+    { "team1": "Kentucky", "team2": "Florida", "intensity": 2, "note": "SEC rivalry" },
+    { "team1": "Alabama", "team2": "Georgia", "intensity": 2, "note": "SEC rivalry" },
+    { "team1": "Kentucky", "team2": "Vanderbilt", "intensity": 2, "note": "SEC rivalry" },
+    { "team1": "Florida", "team2": "Georgia", "intensity": 2, "note": "SEC Cocktail Party rivalry" },
+    { "team1": "Gonzaga", "team2": "BYU", "intensity": 2, "note": "WCC rivalry" },
+    { "team1": "Houston", "team2": "Texas A&M", "intensity": 1, "note": "Texas regional rivalry" },
+    { "team1": "Texas Tech", "team2": "Texas A&M", "intensity": 1, "note": "Texas regional rivalry" },
+    { "team1": "Kansas", "team2": "Nebraska", "intensity": 1, "note": "Former Big 8/Big 12 rivalry" },
+    { "team1": "Wisconsin", "team2": "Michigan St", "intensity": 1, "note": "Big Ten rivalry" },
+    { "team1": "Wisconsin", "team2": "Michigan", "intensity": 1, "note": "Big Ten rivalry" },
+    { "team1": "Miami", "team2": "Florida", "intensity": 1, "note": "In-state, different conferences" }
+  ]
+}
