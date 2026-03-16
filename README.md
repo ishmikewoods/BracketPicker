@@ -17,7 +17,7 @@ Outputs a full bracket to the console with detailed factor breakdowns for every 
 Each matchup starts with a base win probability derived from seed difference, then gets adjusted by several factors:
 
 ### Seed-Based Weighting
-The core of every pick. Uses non-linear power ratings where the top 4 seeds have steeper gaps, reflecting their historically dominant tournament performance. Seeds 1–4 have power gaps of 7–8 per seed, while lower seeds have gaps of 3–5. Probability is capped at 90/10 — no game is ever a sure thing in March.
+The core of every pick. Uses tier-based power ratings calibrated against historical championship distribution. 1-seeds are in an elite tier with a large gap to 2-seeds, reflecting the ~65% historical championship rate. Seeds 2-4 form a strong contender tier, and seeds 5-16 decline linearly. Probability is capped at 90/10 — no game is ever a sure thing in March.
 
 ### Blue Blood Bonus
 Historically elite tournament programs get a small edge reflecting their recruiting depth, coaching experience, and winning culture.

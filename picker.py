@@ -42,15 +42,15 @@ BLUE_BLOOD_T2_BONUS = 0.02
 POWER_CONF_BONUS = 0.03
 HOME_COURT_BONUS = 0.03          # 1-seeds play first two rounds in home region
 RIVALRY_FLATTEN = {3: 0.35, 2: 0.20, 1: 0.10}
-ROUND_FLATTEN = {1: 0.0, 2: 0.05, 3: 0.10, 4: 0.15, 5: 0.20, 6: 0.25}
+ROUND_FLATTEN = {1: 0.0, 2: 0.03, 3: 0.06, 4: 0.10, 5: 0.13, 6: 0.16}
 
-# Non-linear seed power ratings — top 4 seeds have steeper gaps
-SEED_POWER = {
-    1: 100, 2: 92, 3: 85, 4: 78,   # Top 4: gaps of 7-8
-    5: 72,  6: 67, 7: 62, 8: 58,   # 5-8: gaps of 4-5
-    9: 54, 10: 51, 11: 48, 12: 45, # 9-12: gaps of 3
-    13: 42, 14: 39, 15: 36, 16: 33 # 13-16: gaps of 3
-}
+# Tier-based seed power ratings
+# Tier 1 (seed 1): Elite — the 3-4 best teams in the country, clear gap above the field
+# Tier 2 (seeds 2-4): Strong — legitimate contenders but not the clear favorites
+# Seeds 5-16: Linear decline
+SEED_POWER = {1: 120, 2: 90, 3: 84, 4: 78}
+for _s in range(5, 17):
+    SEED_POWER[_s] = round(70 - (_s - 5) * (70 - 33) / 11)
 POWER_SCALE = 0.006  # converts power diff to probability offset
 ROUND_NAMES = {
     1: "Round of 64", 2: "Round of 32", 3: "Sweet 16",
