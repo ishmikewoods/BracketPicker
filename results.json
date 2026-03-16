@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-03-16T13:42:26.459041",
+  "generated_at": "2026-03-16T14:00:50.525620",
   "champion": {
-    "name": "Iowa State",
-    "seed": 2,
+    "name": "Arizona",
+    "seed": 1,
     "conference": "Big 12"
   },
-  "championship_total_points": 148,
-  "first_round_upsets": 7,
+  "championship_total_points": 152,
+  "first_round_upsets": 9,
   "region_champions": {
     "East": {
-      "name": "South Florida",
-      "seed": 11,
-      "conference": "AAC"
+      "name": "Duke",
+      "seed": 1,
+      "conference": "ACC"
     },
     "West": {
-      "name": "Wisconsin",
-      "seed": 5,
-      "conference": "Big Ten"
+      "name": "Arizona",
+      "seed": 1,
+      "conference": "Big 12"
     },
     "South": {
       "name": "Houston",
@@ -24,9 +24,9 @@
       "conference": "Big 12"
     },
     "Midwest": {
-      "name": "Iowa State",
-      "seed": 2,
-      "conference": "Big 12"
+      "name": "Kentucky",
+      "seed": 7,
+      "conference": "SEC"
     }
   },
   "play_in_games": [
@@ -52,7 +52,7 @@
       ],
       "final_prob_team_a": 0.5,
       "final_prob_team_b": 0.5,
-      "roll": 0.9986,
+      "roll": 0.8869,
       "winner": "Lehigh",
       "upset": false
     },
@@ -78,7 +78,7 @@
       ],
       "final_prob_team_a": 0.5,
       "final_prob_team_b": 0.5,
-      "roll": 0.4116,
+      "roll": 0.0218,
       "winner": "UMBC",
       "upset": false
     },
@@ -104,7 +104,7 @@
       ],
       "final_prob_team_a": 0.5,
       "final_prob_team_b": 0.5,
-      "roll": 0.053,
+      "roll": 0.1483,
       "winner": "Texas",
       "upset": false
     },
@@ -130,7 +130,7 @@
       ],
       "final_prob_team_a": 0.5,
       "final_prob_team_b": 0.5,
-      "roll": 0.8366,
+      "roll": 0.561,
       "winner": "SMU",
       "upset": false
     }
@@ -152,7 +152,7 @@
       "factors": [
         {
           "name": "Seed difference",
-          "detail": "(1) vs (16), power 100 vs 33",
+          "detail": "(1) vs (16), power 120 vs 33",
           "prob_after": 0.9
         },
         {
@@ -176,7 +176,7 @@
       ],
       "final_prob_team_a": 0.9,
       "final_prob_team_b": 0.1,
-      "roll": 0.1453,
+      "roll": 0.1963,
       "winner": "Duke",
       "upset": false,
       "region": "East"
@@ -197,13 +197,13 @@
       "factors": [
         {
           "name": "Seed difference",
-          "detail": "(8) vs (9), power 58 vs 54",
-          "prob_after": 0.524
+          "detail": "(8) vs (9), power 60 vs 57",
+          "prob_after": 0.518
         }
       ],
-      "final_prob_team_a": 0.524,
-      "final_prob_team_b": 0.476,
-      "roll": 0.6457,
+      "final_prob_team_a": 0.518,
+      "final_prob_team_b": 0.482,
+      "roll": 0.8011,
       "winner": "TCU",
       "upset": true,
       "region": "East"
@@ -224,19 +224,19 @@
       "factors": [
         {
           "name": "Seed difference",
-          "detail": "(5) vs (12), power 72 vs 45",
-          "prob_after": 0.662
+          "detail": "(5) vs (12), power 70 vs 46",
+          "prob_after": 0.644
         },
         {
           "name": "Conference strength",
           "detail": "St. John's in power conf; Big East vs MVC",
           "adjustment": 0.03,
-          "prob_after": 0.692
+          "prob_after": 0.674
         }
       ],
-      "final_prob_team_a": 0.692,
-      "final_prob_team_b": 0.308,
-      "roll": 0.798,
+      "final_prob_team_a": 0.674,
+      "final_prob_team_b": 0.326,
+      "roll": 0.7914,
       "winner": "Northern Iowa",
       "upset": true,
       "region": "East"
@@ -257,25 +257,25 @@
       "factors": [
         {
           "name": "Seed difference",
-          "detail": "(4) vs (13), power 78 vs 42",
-          "prob_after": 0.716
+          "detail": "(4) vs (13), power 78 vs 43",
+          "prob_after": 0.71
         },
         {
           "name": "Blue blood",
           "detail": "Kansas is Tier-1 blue blood (+0.04)",
           "adjustment": 0.04,
-          "prob_after": 0.756
+          "prob_after": 0.75
         },
         {
           "name": "Conference strength",
           "detail": "Kansas in power conf; Big 12 vs WAC",
           "adjustment": 0.03,
-          "prob_after": 0.786
+          "prob_after": 0.78
         }
       ],
-      "final_prob_team_a": 0.786,
-      "final_prob_team_b": 0.214,
-      "roll": 0.5693,
+      "final_prob_team_a": 0.78,
+      "final_prob_team_b": 0.22,
+      "roll": 0.2023,
       "winner": "Kansas",
       "upset": false,
       "region": "East"
@@ -296,19 +296,19 @@
       "factors": [
         {
           "name": "Seed difference",
-          "detail": "(6) vs (11), power 67 vs 48",
-          "prob_after": 0.614
+          "detail": "(6) vs (11), power 67 vs 50",
+          "prob_after": 0.602
         },
         {
           "name": "Conference strength",
           "detail": "Louisville in power conf; ACC vs AAC",
           "adjustment": 0.03,
-          "prob_after": 0.644
+          "prob_after": 0.632
         }
       ],
-      "final_prob_team_a": 0.644,
-      "final_prob_team_b": 0.356,
-      "roll": 0.7323,
+      "final_prob_team_a": 0.632,
+      "final_prob_team_b": 0.368,
+      "roll": 0.7488,
       "winner": "South Florida",
       "upset": true,
       "region": "East"
@@ -329,25 +329,25 @@
       "factors": [
         {
           "name": "Seed difference",
-          "detail": "(3) vs (14), power 85 vs 39",
-          "prob_after": 0.776
+          "detail": "(3) vs (14), power 84 vs 40",
+          "prob_after": 0.764
         },
         {
           "name": "Blue blood",
           "detail": "Michigan St is Tier-2 blue blood (+0.02)",
           "adjustment": 0.02,
-          "prob_after": 0.796
+          "prob_after": 0.784
         },
         {
           "name": "Conference strength",
           "detail": "Michigan St in power conf; Big Ten vs Summit League",
           "adjustment": 0.03,
-          "prob_after": 0.826
+          "prob_after": 0.814
         }
       ],
-      "final_prob_team_a": 0.826,
-      "final_prob_team_b": 0.174,
-      "roll": 0.6764,
+      "final_prob_team_a": 0.814,
+      "final_prob_team_b": 0.186,
+      "roll": 0.3829,
       "winner": "Michigan St",
       "upset": false,
       "region": "East"
@@ -368,19 +368,19 @@
       "factors": [
         {
           "name": "Seed difference",
-          "detail": "(7) vs (10), power 62 vs 51",
-          "prob_after": 0.566
+          "detail": "(7) vs (10), power 63 vs 53",
+          "prob_after": 0.56
         },
         {
           "name": "Blue blood",
           "detail": "UCLA is Tier-1 blue blood (+0.04)",
           "adjustment": 0.04,
-          "prob_after": 0.606
+          "prob_after": 0.6
         }
       ],
-      "final_prob_team_a": 0.606,
-      "final_prob_team_b": 0.394,
-      "roll": 0.1541,
+      "final_prob_team_a": 0.6,
+      "final_prob_team_b": 0.4,
+      "roll": 0.0059,
       "winner": "UCLA",
       "upset": false,
       "region": "East"
@@ -401,25 +401,25 @@
       "factors": [
         {
           "name": "Seed difference",
-          "detail": "(2) vs (15), power 92 vs 36",
-          "prob_after": 0.836
+          "detail": "(2) vs (15), power 90 vs 36",
+          "prob_after": 0.824
         },
         {
           "name": "Blue blood",
           "detail": "UConn is Tier-1 blue blood (+0.04)",
           "adjustment": 0.04,
-          "prob_after": 0.876
+          "prob_after": 0.864
         },
         {
           "name": "Conference strength",
           "detail": "UConn in power conf; Big East vs SoCon",
           "adjustment": 0.03,
-          "prob_after": 0.9
+          "prob_after": 0.894
         }
       ],
-      "final_prob_team_a": 0.9,
-      "final_prob_team_b": 0.1,
-      "roll": 0.4006,
+      "final_prob_team_a": 0.894,
+      "final_prob_team_b": 0.106,
+      "roll": 0.2282,
       "winner": "UConn",
       "upset": false,
       "region": "East"
@@ -440,33 +440,33 @@
       "factors": [
         {
           "name": "Seed difference",
-          "detail": "(1) vs (9), power 100 vs 54",
-          "prob_after": 0.776
+          "detail": "(1) vs (9), power 120 vs 57",
+          "prob_after": 0.878
         },
         {
           "name": "Blue blood",
           "detail": "Duke is Tier-1 blue blood (+0.04)",
           "adjustment": 0.04,
-          "prob_after": 0.816
+          "prob_after": 0.9
         },
         {
           "name": "Home court",
           "detail": "Duke is a 1-seed playing in home region (Round of 32)",
           "adjustment": 0.03,
-          "prob_after": 0.846
+          "prob_after": 0.9
         },
         {
           "name": "Round scaling",
-          "detail": "Round of 32 — flattened 5% toward 50/50",
-          "adjustment": -0.0173,
-          "prob_after": 0.8287
+          "detail": "Round of 32 — flattened 3% toward 50/50",
+          "adjustment": -0.012,
+          "prob_after": 0.888
         }
       ],
-      "final_prob_team_a": 0.8287,
-      "final_prob_team_b": 0.1713,
-      "roll": 0.8828,
-      "winner": "TCU",
-      "upset": true,
+      "final_prob_team_a": 0.888,
+      "final_prob_team_b": 0.112,
+      "roll": 0.2743,
+      "winner": "Duke",
+      "upset": false,
       "region": "East"
     },
     {
@@ -485,31 +485,31 @@
       "factors": [
         {
           "name": "Seed difference",
-          "detail": "(12) vs (4), power 45 vs 78",
-          "prob_after": 0.302
+          "detail": "(12) vs (4), power 46 vs 78",
+          "prob_after": 0.308
         },
         {
           "name": "Blue blood",
           "detail": "Kansas is Tier-1 blue blood (-0.04)",
           "adjustment": -0.04,
-          "prob_after": 0.262
+          "prob_after": 0.268
         },
         {
           "name": "Conference strength",
           "detail": "Kansas in power conf; MVC vs Big 12",
           "adjustment": -0.03,
-          "prob_after": 0.232
+          "prob_after": 0.238
         },
         {
           "name": "Round scaling",
-          "detail": "Round of 32 — flattened 5% toward 50/50",
-          "adjustment": 0.0134,
-          "prob_after": 0.2454
+          "detail": "Round of 32 — flattened 3% toward 50/50",
+          "adjustment": 0.0079,
+          "prob_after": 0.2459
         }
       ],
-      "final_prob_team_a": 0.2454,
-      "final_prob_team_b": 0.7546,
-      "roll": 0.677,
+      "final_prob_team_a": 0.2459,
+      "final_prob_team_b": 0.7541,
+      "roll": 0.3736,
       "winner": "Kansas",
       "upset": false,
       "region": "East"
@@ -530,31 +530,31 @@
       "factors": [
         {
           "name": "Seed difference",
-          "detail": "(11) vs (3), power 48 vs 85",
-          "prob_after": 0.278
+          "detail": "(11) vs (3), power 50 vs 84",
+          "prob_after": 0.296
         },
         {
           "name": "Blue blood",
           "detail": "Michigan St is Tier-2 blue blood (-0.02)",
           "adjustment": -0.02,
-          "prob_after": 0.258
+          "prob_after": 0.276
         },
         {
           "name": "Conference strength",
           "detail": "Michigan St in power conf; AAC vs Big Ten",
           "adjustment": -0.03,
-          "prob_after": 0.228
+          "prob_after": 0.246
         },
         {
           "name": "Round scaling",
-          "detail": "Round of 32 — flattened 5% toward 50/50",
-          "adjustment": 0.0136,
-          "prob_after": 0.2416
+          "detail": "Round of 32 — flattened 3% toward 50/50",
+          "adjustment": 0.0076,
+          "prob_after": 0.2536
         }
       ],
-      "final_prob_team_a": 0.2416,
-      "final_prob_team_b": 0.7584,
-      "roll": 0.1973,
+      "final_prob_team_a": 0.2536,
+      "final_prob_team_b": 0.7464,
+      "roll": 0.0913,
       "winner": "South Florida",
       "upset": true,
       "region": "East"
@@ -575,19 +575,19 @@
       "factors": [
         {
           "name": "Seed difference",
-          "detail": "(7) vs (2), power 62 vs 92",
-          "prob_after": 0.32
+          "detail": "(7) vs (2), power 63 vs 90",
+          "prob_after": 0.338
         },
         {
           "name": "Round scaling",
-          "detail": "Round of 32 — flattened 5% toward 50/50",
-          "adjustment": 0.009,
-          "prob_after": 0.329
+          "detail": "Round of 32 — flattened 3% toward 50/50",
+          "adjustment": 0.0049,
+          "prob_after": 0.3429
         }
       ],
-      "final_prob_team_a": 0.329,
-      "final_prob_team_b": 0.671,
-      "roll": 0.644,
+      "final_prob_team_a": 0.3429,
+      "final_prob_team_b": 0.6571,
+      "roll": 0.533,
       "winner": "UConn",
       "upset": false,
       "region": "East"
@@ -596,9 +596,9 @@
       "round": 3,
       "round_name": "Sweet 16",
       "team_a": {
-        "name": "TCU",
-        "seed": 9,
-        "conference": "Big 12"
+        "name": "Duke",
+        "seed": 1,
+        "conference": "ACC"
       },
       "team_b": {
         "name": "Kansas",
@@ -608,26 +608,20 @@
       "factors": [
         {
           "name": "Seed difference",
-          "detail": "(9) vs (4), power 54 vs 78",
-          "prob_after": 0.356
-        },
-        {
-          "name": "Blue blood",
-          "detail": "Kansas is Tier-1 blue blood (-0.04)",
-          "adjustment": -0.04,
-          "prob_after": 0.316
+          "detail": "(1) vs (4), power 120 vs 78",
+          "prob_after": 0.752
         },
         {
           "name": "Round scaling",
-          "detail": "Sweet 16 — flattened 10% toward 50/50",
-          "adjustment": 0.0184,
-          "prob_after": 0.3344
+          "detail": "Sweet 16 — flattened 6% toward 50/50",
+          "adjustment": -0.0151,
+          "prob_after": 0.7369
         }
       ],
-      "final_prob_team_a": 0.3344,
-      "final_prob_team_b": 0.6656,
-      "roll": 0.589,
-      "winner": "Kansas",
+      "final_prob_team_a": 0.7369,
+      "final_prob_team_b": 0.2631,
+      "roll": 0.6315,
+      "winner": "Duke",
       "upset": false,
       "region": "East"
     },
@@ -647,31 +641,31 @@
       "factors": [
         {
           "name": "Seed difference",
-          "detail": "(11) vs (2), power 48 vs 92",
-          "prob_after": 0.236
+          "detail": "(11) vs (2), power 50 vs 90",
+          "prob_after": 0.26
         },
         {
           "name": "Blue blood",
           "detail": "UConn is Tier-1 blue blood (-0.04)",
           "adjustment": -0.04,
-          "prob_after": 0.196
+          "prob_after": 0.22
         },
         {
           "name": "Conference strength",
           "detail": "UConn in power conf; AAC vs Big East",
           "adjustment": -0.03,
-          "prob_after": 0.166
+          "prob_after": 0.19
         },
         {
           "name": "Round scaling",
-          "detail": "Sweet 16 — flattened 10% toward 50/50",
-          "adjustment": 0.0334,
-          "prob_after": 0.1994
+          "detail": "Sweet 16 — flattened 6% toward 50/50",
+          "adjustment": 0.0186,
+          "prob_after": 0.2086
         }
       ],
-      "final_prob_team_a": 0.1994,
-      "final_prob_team_b": 0.8006,
-      "roll": 0.1909,
+      "final_prob_team_a": 0.2086,
+      "final_prob_team_b": 0.7914,
+      "roll": 0.1358,
       "winner": "South Florida",
       "upset": true,
       "region": "East"
@@ -680,9 +674,9 @@
       "round": 4,
       "round_name": "Elite 8",
       "team_a": {
-        "name": "Kansas",
-        "seed": 4,
-        "conference": "Big 12"
+        "name": "Duke",
+        "seed": 1,
+        "conference": "ACC"
       },
       "team_b": {
         "name": "South Florida",
@@ -692,33 +686,33 @@
       "factors": [
         {
           "name": "Seed difference",
-          "detail": "(4) vs (11), power 78 vs 48",
-          "prob_after": 0.68
+          "detail": "(1) vs (11), power 120 vs 50",
+          "prob_after": 0.9
         },
         {
           "name": "Blue blood",
-          "detail": "Kansas is Tier-1 blue blood (+0.04)",
+          "detail": "Duke is Tier-1 blue blood (+0.04)",
           "adjustment": 0.04,
-          "prob_after": 0.72
+          "prob_after": 0.9
         },
         {
           "name": "Conference strength",
-          "detail": "Kansas in power conf; Big 12 vs AAC",
+          "detail": "Duke in power conf; ACC vs AAC",
           "adjustment": 0.03,
-          "prob_after": 0.75
+          "prob_after": 0.9
         },
         {
           "name": "Round scaling",
-          "detail": "Elite 8 — flattened 15% toward 50/50",
-          "adjustment": -0.0375,
-          "prob_after": 0.7125
+          "detail": "Elite 8 — flattened 10% toward 50/50",
+          "adjustment": -0.04,
+          "prob_after": 0.86
         }
       ],
-      "final_prob_team_a": 0.7125,
-      "final_prob_team_b": 0.2875,
-      "roll": 0.8924,
-      "winner": "South Florida",
-      "upset": true,
+      "final_prob_team_a": 0.86,
+      "final_prob_team_b": 0.14,
+      "roll": 0.5761,
+      "winner": "Duke",
+      "upset": false,
       "region": "East"
     },
     {
@@ -737,7 +731,7 @@
       "factors": [
         {
           "name": "Seed difference",
-          "detail": "(1) vs (16), power 100 vs 33",
+          "detail": "(1) vs (16), power 120 vs 33",
           "prob_after": 0.9
         },
         {
@@ -755,7 +749,7 @@
       ],
       "final_prob_team_a": 0.9,
       "final_prob_team_b": 0.1,
-      "roll": 0.7602,
+      "roll": 0.3671,
       "winner": "Arizona",
       "upset": false,
       "region": "West"
@@ -776,25 +770,25 @@
       "factors": [
         {
           "name": "Seed difference",
-          "detail": "(8) vs (9), power 58 vs 54",
-          "prob_after": 0.524
+          "detail": "(8) vs (9), power 60 vs 57",
+          "prob_after": 0.518
         },
         {
           "name": "Blue blood",
           "detail": "Villanova is Tier-2 blue blood (+0.02)",
           "adjustment": 0.02,
-          "prob_after": 0.544
+          "prob_after": 0.538
         },
         {
           "name": "Conference strength",
           "detail": "Villanova in power conf; Big East vs Mountain West",
           "adjustment": 0.03,
-          "prob_after": 0.574
+          "prob_after": 0.568
         }
       ],
-      "final_prob_team_a": 0.574,
-      "final_prob_team_b": 0.426,
-      "roll": 0.4847,
+      "final_prob_team_a": 0.568,
+      "final_prob_team_b": 0.432,
+      "roll": 0.2352,
       "winner": "Villanova",
       "upset": false,
       "region": "West"
@@ -815,21 +809,21 @@
       "factors": [
         {
           "name": "Seed difference",
-          "detail": "(5) vs (12), power 72 vs 45",
-          "prob_after": 0.662
+          "detail": "(5) vs (12), power 70 vs 46",
+          "prob_after": 0.644
         },
         {
           "name": "Conference strength",
           "detail": "Wisconsin in power conf; Big Ten vs Big South",
           "adjustment": 0.03,
-          "prob_after": 0.692
+          "prob_after": 0.674
         }
       ],
-      "final_prob_team_a": 0.692,
-      "final_prob_team_b": 0.308,
-      "roll": 0.057,
-      "winner": "Wisconsin",
-      "upset": false,
+      "final_prob_team_a": 0.674,
+      "final_prob_team_b": 0.326,
+      "roll": 0.8971,
+      "winner": "High Point",
+      "upset": true,
       "region": "West"
     },
     {
@@ -848,21 +842,21 @@
       "factors": [
         {
           "name": "Seed difference",
-          "detail": "(4) vs (13), power 78 vs 42",
-          "prob_after": 0.716
+          "detail": "(4) vs (13), power 78 vs 43",
+          "prob_after": 0.71
         },
         {
           "name": "Conference strength",
           "detail": "Arkansas in power conf; SEC vs Big West",
           "adjustment": 0.03,
-          "prob_after": 0.746
+          "prob_after": 0.74
         }
       ],
-      "final_prob_team_a": 0.746,
-      "final_prob_team_b": 0.254,
-      "roll": 0.4053,
-      "winner": "Arkansas",
-      "upset": false,
+      "final_prob_team_a": 0.74,
+      "final_prob_team_b": 0.26,
+      "roll": 0.7655,
+      "winner": "Hawai'i",
+      "upset": true,
       "region": "West"
     },
     {
@@ -881,13 +875,13 @@
       "factors": [
         {
           "name": "Seed difference",
-          "detail": "(6) vs (11), power 67 vs 48",
-          "prob_after": 0.614
+          "detail": "(6) vs (11), power 67 vs 50",
+          "prob_after": 0.602
         }
       ],
-      "final_prob_team_a": 0.614,
-      "final_prob_team_b": 0.386,
-      "roll": 0.5258,
+      "final_prob_team_a": 0.602,
+      "final_prob_team_b": 0.398,
+      "roll": 0.512,
       "winner": "BYU",
       "upset": false,
       "region": "West"
@@ -908,19 +902,19 @@
       "factors": [
         {
           "name": "Seed difference",
-          "detail": "(3) vs (14), power 85 vs 39",
-          "prob_after": 0.776
+          "detail": "(3) vs (14), power 84 vs 40",
+          "prob_after": 0.764
         },
         {
           "name": "Blue blood",
           "detail": "Gonzaga is Tier-2 blue blood (+0.02)",
           "adjustment": 0.02,
-          "prob_after": 0.796
+          "prob_after": 0.784
         }
       ],
-      "final_prob_team_a": 0.796,
-      "final_prob_team_b": 0.204,
-      "roll": 0.2443,
+      "final_prob_team_a": 0.784,
+      "final_prob_team_b": 0.216,
+      "roll": 0.728,
       "winner": "Gonzaga",
       "upset": false,
       "region": "West"
@@ -941,15 +935,15 @@
       "factors": [
         {
           "name": "Seed difference",
-          "detail": "(7) vs (10), power 62 vs 51",
-          "prob_after": 0.566
+          "detail": "(7) vs (10), power 63 vs 53",
+          "prob_after": 0.56
         }
       ],
-      "final_prob_team_a": 0.566,
-      "final_prob_team_b": 0.434,
-      "roll": 0.9334,
-      "winner": "Missouri",
-      "upset": true,
+      "final_prob_team_a": 0.56,
+      "final_prob_team_b": 0.44,
+      "roll": 0.2379,
+      "winner": "Miami",
+      "upset": false,
       "region": "West"
     },
     {
@@ -968,19 +962,19 @@
       "factors": [
         {
           "name": "Seed difference",
-          "detail": "(2) vs (15), power 92 vs 36",
-          "prob_after": 0.836
+          "detail": "(2) vs (15), power 90 vs 36",
+          "prob_after": 0.824
         },
         {
           "name": "Conference strength",
           "detail": "Purdue in power conf; Big Ten vs ASUN",
           "adjustment": 0.03,
-          "prob_after": 0.866
+          "prob_after": 0.854
         }
       ],
-      "final_prob_team_a": 0.866,
-      "final_prob_team_b": 0.134,
-      "roll": 0.8075,
+      "final_prob_team_a": 0.854,
+      "final_prob_team_b": 0.146,
+      "roll": 0.5971,
       "winner": "Purdue",
       "upset": false,
       "region": "West"
@@ -1001,66 +995,66 @@
       "factors": [
         {
           "name": "Seed difference",
-          "detail": "(1) vs (8), power 100 vs 58",
-          "prob_after": 0.752
+          "detail": "(1) vs (8), power 120 vs 60",
+          "prob_after": 0.86
         },
         {
           "name": "Blue blood",
           "detail": "Villanova is Tier-2 blue blood (-0.02)",
           "adjustment": -0.02,
-          "prob_after": 0.732
+          "prob_after": 0.84
         },
         {
           "name": "Home court",
           "detail": "Arizona is a 1-seed playing in home region (Round of 32)",
           "adjustment": 0.03,
-          "prob_after": 0.762
+          "prob_after": 0.87
         },
         {
           "name": "Round scaling",
-          "detail": "Round of 32 — flattened 5% toward 50/50",
-          "adjustment": -0.0131,
-          "prob_after": 0.7489
+          "detail": "Round of 32 — flattened 3% toward 50/50",
+          "adjustment": -0.0111,
+          "prob_after": 0.8589
         }
       ],
-      "final_prob_team_a": 0.7489,
-      "final_prob_team_b": 0.2511,
-      "roll": 0.9933,
-      "winner": "Villanova",
-      "upset": true,
+      "final_prob_team_a": 0.8589,
+      "final_prob_team_b": 0.1411,
+      "roll": 0.2283,
+      "winner": "Arizona",
+      "upset": false,
       "region": "West"
     },
     {
       "round": 2,
       "round_name": "Round of 32",
       "team_a": {
-        "name": "Wisconsin",
-        "seed": 5,
-        "conference": "Big Ten"
+        "name": "High Point",
+        "seed": 12,
+        "conference": "Big South"
       },
       "team_b": {
-        "name": "Arkansas",
-        "seed": 4,
-        "conference": "SEC"
+        "name": "Hawai'i",
+        "seed": 13,
+        "conference": "Big West"
       },
       "factors": [
         {
           "name": "Seed difference",
-          "detail": "(5) vs (4), power 72 vs 78",
-          "prob_after": 0.464
+          "detail": "(12) vs (13), power 46 vs 43",
+          "prob_after": 0.518
         },
         {
           "name": "Round scaling",
-          "detail": "Round of 32 — flattened 5% toward 50/50",
-          "adjustment": 0.0018,
-          "prob_after": 0.4658
+          "detail": "Round of 32 — flattened 3% toward 50/50",
+          "adjustment": -0.0005,
+          "prob_after": 0.5175
         }
       ],
-      "final_prob_team_a": 0.4658,
-      "final_prob_team_b": 0.5342,
-      "roll": 0.0076,
-      "winner": "Wisconsin",
-      "upset": true,
+      "final_prob_team_a": 0.5175,
+      "final_prob_team_b": 0.4825,
+      "roll": 0.2213,
+      "winner": "High Point",
+      "upset": false,
       "region": "West"
     },
     {
@@ -1079,37 +1073,37 @@
       "factors": [
         {
           "name": "Seed difference",
-          "detail": "(6) vs (3), power 67 vs 85",
-          "prob_after": 0.392
+          "detail": "(6) vs (3), power 67 vs 84",
+          "prob_after": 0.398
         },
         {
           "name": "Blue blood",
           "detail": "Gonzaga is Tier-2 blue blood (-0.02)",
           "adjustment": -0.02,
-          "prob_after": 0.372
+          "prob_after": 0.378
         },
         {
           "name": "Conference strength",
           "detail": "BYU in power conf; Big 12 vs WCC",
           "adjustment": 0.03,
-          "prob_after": 0.402
+          "prob_after": 0.408
         },
         {
           "name": "Rivalry",
           "detail": "WCC rivalry (intensity 2/3, flattened 20% toward 50/50)",
-          "adjustment": 0.0196,
-          "prob_after": 0.4216
+          "adjustment": 0.0184,
+          "prob_after": 0.4264
         },
         {
           "name": "Round scaling",
-          "detail": "Round of 32 — flattened 5% toward 50/50",
-          "adjustment": 0.0039,
-          "prob_after": 0.4255
+          "detail": "Round of 32 — flattened 3% toward 50/50",
+          "adjustment": 0.0022,
+          "prob_after": 0.4286
         }
       ],
-      "final_prob_team_a": 0.4255,
-      "final_prob_team_b": 0.5745,
-      "roll": 0.3673,
+      "final_prob_team_a": 0.4286,
+      "final_prob_team_b": 0.5714,
+      "roll": 0.2999,
       "winner": "BYU",
       "upset": true,
       "region": "West"
@@ -1118,9 +1112,9 @@
       "round": 2,
       "round_name": "Round of 32",
       "team_a": {
-        "name": "Missouri",
-        "seed": 10,
-        "conference": "SEC"
+        "name": "Miami",
+        "seed": 7,
+        "conference": "ACC"
       },
       "team_b": {
         "name": "Purdue",
@@ -1130,59 +1124,59 @@
       "factors": [
         {
           "name": "Seed difference",
-          "detail": "(10) vs (2), power 51 vs 92",
-          "prob_after": 0.254
+          "detail": "(7) vs (2), power 63 vs 90",
+          "prob_after": 0.338
         },
         {
           "name": "Round scaling",
-          "detail": "Round of 32 — flattened 5% toward 50/50",
-          "adjustment": 0.0123,
-          "prob_after": 0.2663
+          "detail": "Round of 32 — flattened 3% toward 50/50",
+          "adjustment": 0.0049,
+          "prob_after": 0.3429
         }
       ],
-      "final_prob_team_a": 0.2663,
-      "final_prob_team_b": 0.7337,
-      "roll": 0.1115,
-      "winner": "Missouri",
-      "upset": true,
+      "final_prob_team_a": 0.3429,
+      "final_prob_team_b": 0.6571,
+      "roll": 0.6071,
+      "winner": "Purdue",
+      "upset": false,
       "region": "West"
     },
     {
       "round": 3,
       "round_name": "Sweet 16",
       "team_a": {
-        "name": "Villanova",
-        "seed": 8,
-        "conference": "Big East"
+        "name": "Arizona",
+        "seed": 1,
+        "conference": "Big 12"
       },
       "team_b": {
-        "name": "Wisconsin",
-        "seed": 5,
-        "conference": "Big Ten"
+        "name": "High Point",
+        "seed": 12,
+        "conference": "Big South"
       },
       "factors": [
         {
           "name": "Seed difference",
-          "detail": "(8) vs (5), power 58 vs 72",
-          "prob_after": 0.416
+          "detail": "(1) vs (12), power 120 vs 46",
+          "prob_after": 0.9
         },
         {
-          "name": "Blue blood",
-          "detail": "Villanova is Tier-2 blue blood (+0.02)",
-          "adjustment": 0.02,
-          "prob_after": 0.436
+          "name": "Conference strength",
+          "detail": "Arizona in power conf; Big 12 vs Big South",
+          "adjustment": 0.03,
+          "prob_after": 0.9
         },
         {
           "name": "Round scaling",
-          "detail": "Sweet 16 — flattened 10% toward 50/50",
-          "adjustment": 0.0064,
-          "prob_after": 0.4424
+          "detail": "Sweet 16 — flattened 6% toward 50/50",
+          "adjustment": -0.024,
+          "prob_after": 0.876
         }
       ],
-      "final_prob_team_a": 0.4424,
-      "final_prob_team_b": 0.5576,
-      "roll": 0.5478,
-      "winner": "Wisconsin",
+      "final_prob_team_a": 0.876,
+      "final_prob_team_b": 0.124,
+      "roll": 0.6503,
+      "winner": "Arizona",
       "upset": false,
       "region": "West"
     },
@@ -1195,27 +1189,27 @@
         "conference": "Big 12"
       },
       "team_b": {
-        "name": "Missouri",
-        "seed": 10,
-        "conference": "SEC"
+        "name": "Purdue",
+        "seed": 2,
+        "conference": "Big Ten"
       },
       "factors": [
         {
           "name": "Seed difference",
-          "detail": "(6) vs (10), power 67 vs 51",
-          "prob_after": 0.596
+          "detail": "(6) vs (2), power 67 vs 90",
+          "prob_after": 0.362
         },
         {
           "name": "Round scaling",
-          "detail": "Sweet 16 — flattened 10% toward 50/50",
-          "adjustment": -0.0096,
-          "prob_after": 0.5864
+          "detail": "Sweet 16 — flattened 6% toward 50/50",
+          "adjustment": 0.0083,
+          "prob_after": 0.3703
         }
       ],
-      "final_prob_team_a": 0.5864,
-      "final_prob_team_b": 0.4136,
-      "roll": 0.2364,
-      "winner": "BYU",
+      "final_prob_team_a": 0.3703,
+      "final_prob_team_b": 0.6297,
+      "roll": 0.8467,
+      "winner": "Purdue",
       "upset": false,
       "region": "West"
     },
@@ -1223,32 +1217,32 @@
       "round": 4,
       "round_name": "Elite 8",
       "team_a": {
-        "name": "Wisconsin",
-        "seed": 5,
-        "conference": "Big Ten"
+        "name": "Arizona",
+        "seed": 1,
+        "conference": "Big 12"
       },
       "team_b": {
-        "name": "BYU",
-        "seed": 6,
-        "conference": "Big 12"
+        "name": "Purdue",
+        "seed": 2,
+        "conference": "Big Ten"
       },
       "factors": [
         {
           "name": "Seed difference",
-          "detail": "(5) vs (6), power 72 vs 67",
-          "prob_after": 0.53
+          "detail": "(1) vs (2), power 120 vs 90",
+          "prob_after": 0.68
         },
         {
           "name": "Round scaling",
-          "detail": "Elite 8 — flattened 15% toward 50/50",
-          "adjustment": -0.0045,
-          "prob_after": 0.5255
+          "detail": "Elite 8 — flattened 10% toward 50/50",
+          "adjustment": -0.018,
+          "prob_after": 0.662
         }
       ],
-      "final_prob_team_a": 0.5255,
-      "final_prob_team_b": 0.4745,
-      "roll": 0.2671,
-      "winner": "Wisconsin",
+      "final_prob_team_a": 0.662,
+      "final_prob_team_b": 0.338,
+      "roll": 0.1385,
+      "winner": "Arizona",
       "upset": false,
       "region": "West"
     },
@@ -1268,7 +1262,7 @@
       "factors": [
         {
           "name": "Seed difference",
-          "detail": "(1) vs (16), power 100 vs 33",
+          "detail": "(1) vs (16), power 120 vs 33",
           "prob_after": 0.9
         },
         {
@@ -1292,7 +1286,7 @@
       ],
       "final_prob_team_a": 0.9,
       "final_prob_team_b": 0.1,
-      "roll": 0.2689,
+      "roll": 0.538,
       "winner": "Florida",
       "upset": false,
       "region": "South"
@@ -1313,13 +1307,13 @@
       "factors": [
         {
           "name": "Seed difference",
-          "detail": "(8) vs (9), power 58 vs 54",
-          "prob_after": 0.524
+          "detail": "(8) vs (9), power 60 vs 57",
+          "prob_after": 0.518
         }
       ],
-      "final_prob_team_a": 0.524,
-      "final_prob_team_b": 0.476,
-      "roll": 0.1075,
+      "final_prob_team_a": 0.518,
+      "final_prob_team_b": 0.482,
+      "roll": 0.1537,
       "winner": "Clemson",
       "upset": false,
       "region": "South"
@@ -1340,21 +1334,21 @@
       "factors": [
         {
           "name": "Seed difference",
-          "detail": "(5) vs (12), power 72 vs 45",
-          "prob_after": 0.662
+          "detail": "(5) vs (12), power 70 vs 46",
+          "prob_after": 0.644
         },
         {
           "name": "Conference strength",
           "detail": "Vanderbilt in power conf; SEC vs Southland",
           "adjustment": 0.03,
-          "prob_after": 0.692
+          "prob_after": 0.674
         }
       ],
-      "final_prob_team_a": 0.692,
-      "final_prob_team_b": 0.308,
-      "roll": 0.8783,
-      "winner": "McNeese",
-      "upset": true,
+      "final_prob_team_a": 0.674,
+      "final_prob_team_b": 0.326,
+      "roll": 0.5301,
+      "winner": "Vanderbilt",
+      "upset": false,
       "region": "South"
     },
     {
@@ -1373,21 +1367,21 @@
       "factors": [
         {
           "name": "Seed difference",
-          "detail": "(4) vs (13), power 78 vs 42",
-          "prob_after": 0.716
+          "detail": "(4) vs (13), power 78 vs 43",
+          "prob_after": 0.71
         },
         {
           "name": "Conference strength",
           "detail": "Nebraska in power conf; Big Ten vs Sun Belt",
           "adjustment": 0.03,
-          "prob_after": 0.746
+          "prob_after": 0.74
         }
       ],
-      "final_prob_team_a": 0.746,
-      "final_prob_team_b": 0.254,
-      "roll": 0.2833,
-      "winner": "Nebraska",
-      "upset": false,
+      "final_prob_team_a": 0.74,
+      "final_prob_team_b": 0.26,
+      "roll": 0.8713,
+      "winner": "Troy",
+      "upset": true,
       "region": "South"
     },
     {
@@ -1406,27 +1400,27 @@
       "factors": [
         {
           "name": "Seed difference",
-          "detail": "(6) vs (11), power 67 vs 48",
-          "prob_after": 0.614
+          "detail": "(6) vs (11), power 67 vs 50",
+          "prob_after": 0.602
         },
         {
           "name": "Blue blood",
           "detail": "North Carolina is Tier-1 blue blood (+0.04)",
           "adjustment": 0.04,
-          "prob_after": 0.654
+          "prob_after": 0.642
         },
         {
           "name": "Conference strength",
           "detail": "North Carolina in power conf; ACC vs A-10",
           "adjustment": 0.03,
-          "prob_after": 0.684
+          "prob_after": 0.672
         }
       ],
-      "final_prob_team_a": 0.684,
-      "final_prob_team_b": 0.316,
-      "roll": 0.9921,
-      "winner": "VCU",
-      "upset": true,
+      "final_prob_team_a": 0.672,
+      "final_prob_team_b": 0.328,
+      "roll": 0.523,
+      "winner": "North Carolina",
+      "upset": false,
       "region": "South"
     },
     {
@@ -1445,19 +1439,19 @@
       "factors": [
         {
           "name": "Seed difference",
-          "detail": "(3) vs (14), power 85 vs 39",
-          "prob_after": 0.776
+          "detail": "(3) vs (14), power 84 vs 40",
+          "prob_after": 0.764
         },
         {
           "name": "Conference strength",
           "detail": "Illinois in power conf; Big Ten vs Ivy League",
           "adjustment": 0.03,
-          "prob_after": 0.806
+          "prob_after": 0.794
         }
       ],
-      "final_prob_team_a": 0.806,
-      "final_prob_team_b": 0.194,
-      "roll": 0.1098,
+      "final_prob_team_a": 0.794,
+      "final_prob_team_b": 0.206,
+      "roll": 0.4538,
       "winner": "Illinois",
       "upset": false,
       "region": "South"
@@ -1478,21 +1472,21 @@
       "factors": [
         {
           "name": "Seed difference",
-          "detail": "(7) vs (10), power 62 vs 51",
-          "prob_after": 0.566
+          "detail": "(7) vs (10), power 63 vs 53",
+          "prob_after": 0.56
         },
         {
           "name": "Conference strength",
           "detail": "Texas A&M in power conf; WCC vs SEC",
           "adjustment": -0.03,
-          "prob_after": 0.536
+          "prob_after": 0.53
         }
       ],
-      "final_prob_team_a": 0.536,
-      "final_prob_team_b": 0.464,
-      "roll": 0.4033,
-      "winner": "Saint Mary's",
-      "upset": false,
+      "final_prob_team_a": 0.53,
+      "final_prob_team_b": 0.47,
+      "roll": 0.8132,
+      "winner": "Texas A&M",
+      "upset": true,
       "region": "South"
     },
     {
@@ -1511,25 +1505,25 @@
       "factors": [
         {
           "name": "Seed difference",
-          "detail": "(2) vs (15), power 92 vs 36",
-          "prob_after": 0.836
+          "detail": "(2) vs (15), power 90 vs 36",
+          "prob_after": 0.824
         },
         {
           "name": "Blue blood",
           "detail": "Houston is Tier-2 blue blood (+0.02)",
           "adjustment": 0.02,
-          "prob_after": 0.856
+          "prob_after": 0.844
         },
         {
           "name": "Conference strength",
           "detail": "Houston in power conf; Big 12 vs Big Sky",
           "adjustment": 0.03,
-          "prob_after": 0.886
+          "prob_after": 0.874
         }
       ],
-      "final_prob_team_a": 0.886,
-      "final_prob_team_b": 0.114,
-      "roll": 0.5197,
+      "final_prob_team_a": 0.874,
+      "final_prob_team_b": 0.126,
+      "roll": 0.2309,
       "winner": "Houston",
       "upset": false,
       "region": "South"
@@ -1550,31 +1544,31 @@
       "factors": [
         {
           "name": "Seed difference",
-          "detail": "(1) vs (8), power 100 vs 58",
-          "prob_after": 0.752
+          "detail": "(1) vs (8), power 120 vs 60",
+          "prob_after": 0.86
         },
         {
           "name": "Blue blood",
           "detail": "Florida is Tier-2 blue blood (+0.02)",
           "adjustment": 0.02,
-          "prob_after": 0.772
+          "prob_after": 0.88
         },
         {
           "name": "Home court",
           "detail": "Florida is a 1-seed playing in home region (Round of 32)",
           "adjustment": 0.03,
-          "prob_after": 0.802
+          "prob_after": 0.9
         },
         {
           "name": "Round scaling",
-          "detail": "Round of 32 — flattened 5% toward 50/50",
-          "adjustment": -0.0151,
-          "prob_after": 0.7869
+          "detail": "Round of 32 — flattened 3% toward 50/50",
+          "adjustment": -0.012,
+          "prob_after": 0.888
         }
       ],
-      "final_prob_team_a": 0.7869,
-      "final_prob_team_b": 0.2131,
-      "roll": 0.0266,
+      "final_prob_team_a": 0.888,
+      "final_prob_team_b": 0.112,
+      "roll": 0.018,
       "winner": "Florida",
       "upset": false,
       "region": "South"
@@ -1583,38 +1577,38 @@
       "round": 2,
       "round_name": "Round of 32",
       "team_a": {
-        "name": "McNeese",
-        "seed": 12,
-        "conference": "Southland"
+        "name": "Vanderbilt",
+        "seed": 5,
+        "conference": "SEC"
       },
       "team_b": {
-        "name": "Nebraska",
-        "seed": 4,
-        "conference": "Big Ten"
+        "name": "Troy",
+        "seed": 13,
+        "conference": "Sun Belt"
       },
       "factors": [
         {
           "name": "Seed difference",
-          "detail": "(12) vs (4), power 45 vs 78",
-          "prob_after": 0.302
+          "detail": "(5) vs (13), power 70 vs 43",
+          "prob_after": 0.662
         },
         {
           "name": "Conference strength",
-          "detail": "Nebraska in power conf; Southland vs Big Ten",
-          "adjustment": -0.03,
-          "prob_after": 0.272
+          "detail": "Vanderbilt in power conf; SEC vs Sun Belt",
+          "adjustment": 0.03,
+          "prob_after": 0.692
         },
         {
           "name": "Round scaling",
-          "detail": "Round of 32 — flattened 5% toward 50/50",
-          "adjustment": 0.0114,
-          "prob_after": 0.2834
+          "detail": "Round of 32 — flattened 3% toward 50/50",
+          "adjustment": -0.0058,
+          "prob_after": 0.6862
         }
       ],
-      "final_prob_team_a": 0.2834,
-      "final_prob_team_b": 0.7166,
-      "roll": 0.1517,
-      "winner": "McNeese",
+      "final_prob_team_a": 0.6862,
+      "final_prob_team_b": 0.3138,
+      "roll": 0.7333,
+      "winner": "Troy",
       "upset": true,
       "region": "South"
     },
@@ -1622,9 +1616,9 @@
       "round": 2,
       "round_name": "Round of 32",
       "team_a": {
-        "name": "VCU",
-        "seed": 11,
-        "conference": "A-10"
+        "name": "North Carolina",
+        "seed": 6,
+        "conference": "ACC"
       },
       "team_b": {
         "name": "Illinois",
@@ -1634,36 +1628,36 @@
       "factors": [
         {
           "name": "Seed difference",
-          "detail": "(11) vs (3), power 48 vs 85",
-          "prob_after": 0.278
+          "detail": "(6) vs (3), power 67 vs 84",
+          "prob_after": 0.398
         },
         {
-          "name": "Conference strength",
-          "detail": "Illinois in power conf; A-10 vs Big Ten",
-          "adjustment": -0.03,
-          "prob_after": 0.248
+          "name": "Blue blood",
+          "detail": "North Carolina is Tier-1 blue blood (+0.04)",
+          "adjustment": 0.04,
+          "prob_after": 0.438
         },
         {
           "name": "Round scaling",
-          "detail": "Round of 32 — flattened 5% toward 50/50",
-          "adjustment": 0.0126,
-          "prob_after": 0.2606
+          "detail": "Round of 32 — flattened 3% toward 50/50",
+          "adjustment": 0.0019,
+          "prob_after": 0.4399
         }
       ],
-      "final_prob_team_a": 0.2606,
-      "final_prob_team_b": 0.7394,
-      "roll": 0.4147,
-      "winner": "Illinois",
-      "upset": false,
+      "final_prob_team_a": 0.4399,
+      "final_prob_team_b": 0.5601,
+      "roll": 0.304,
+      "winner": "North Carolina",
+      "upset": true,
       "region": "South"
     },
     {
       "round": 2,
       "round_name": "Round of 32",
       "team_a": {
-        "name": "Saint Mary's",
-        "seed": 7,
-        "conference": "WCC"
+        "name": "Texas A&M",
+        "seed": 10,
+        "conference": "SEC"
       },
       "team_b": {
         "name": "Houston",
@@ -1673,31 +1667,31 @@
       "factors": [
         {
           "name": "Seed difference",
-          "detail": "(7) vs (2), power 62 vs 92",
-          "prob_after": 0.32
+          "detail": "(10) vs (2), power 53 vs 90",
+          "prob_after": 0.278
         },
         {
           "name": "Blue blood",
           "detail": "Houston is Tier-2 blue blood (-0.02)",
           "adjustment": -0.02,
-          "prob_after": 0.3
+          "prob_after": 0.258
         },
         {
-          "name": "Conference strength",
-          "detail": "Houston in power conf; WCC vs Big 12",
-          "adjustment": -0.03,
-          "prob_after": 0.27
+          "name": "Rivalry",
+          "detail": "Texas regional rivalry (intensity 1/3, flattened 10% toward 50/50)",
+          "adjustment": 0.0242,
+          "prob_after": 0.2822
         },
         {
           "name": "Round scaling",
-          "detail": "Round of 32 — flattened 5% toward 50/50",
-          "adjustment": 0.0115,
-          "prob_after": 0.2815
+          "detail": "Round of 32 — flattened 3% toward 50/50",
+          "adjustment": 0.0065,
+          "prob_after": 0.2887
         }
       ],
-      "final_prob_team_a": 0.2815,
-      "final_prob_team_b": 0.7185,
-      "roll": 0.486,
+      "final_prob_team_a": 0.2887,
+      "final_prob_team_b": 0.7113,
+      "roll": 0.4775,
       "winner": "Houston",
       "upset": false,
       "region": "South"
@@ -1711,49 +1705,49 @@
         "conference": "SEC"
       },
       "team_b": {
-        "name": "McNeese",
-        "seed": 12,
-        "conference": "Southland"
+        "name": "Troy",
+        "seed": 13,
+        "conference": "Sun Belt"
       },
       "factors": [
         {
           "name": "Seed difference",
-          "detail": "(1) vs (12), power 100 vs 45",
-          "prob_after": 0.83
+          "detail": "(1) vs (13), power 120 vs 43",
+          "prob_after": 0.9
         },
         {
           "name": "Blue blood",
           "detail": "Florida is Tier-2 blue blood (+0.02)",
           "adjustment": 0.02,
-          "prob_after": 0.85
+          "prob_after": 0.9
         },
         {
           "name": "Conference strength",
-          "detail": "Florida in power conf; SEC vs Southland",
+          "detail": "Florida in power conf; SEC vs Sun Belt",
           "adjustment": 0.03,
-          "prob_after": 0.88
+          "prob_after": 0.9
         },
         {
           "name": "Round scaling",
-          "detail": "Sweet 16 — flattened 10% toward 50/50",
-          "adjustment": -0.038,
-          "prob_after": 0.842
+          "detail": "Sweet 16 — flattened 6% toward 50/50",
+          "adjustment": -0.024,
+          "prob_after": 0.876
         }
       ],
-      "final_prob_team_a": 0.842,
-      "final_prob_team_b": 0.158,
-      "roll": 0.8913,
-      "winner": "McNeese",
-      "upset": true,
+      "final_prob_team_a": 0.876,
+      "final_prob_team_b": 0.124,
+      "roll": 0.6537,
+      "winner": "Florida",
+      "upset": false,
       "region": "South"
     },
     {
       "round": 3,
       "round_name": "Sweet 16",
       "team_a": {
-        "name": "Illinois",
-        "seed": 3,
-        "conference": "Big Ten"
+        "name": "North Carolina",
+        "seed": 6,
+        "conference": "ACC"
       },
       "team_b": {
         "name": "Houston",
@@ -1763,25 +1757,25 @@
       "factors": [
         {
           "name": "Seed difference",
-          "detail": "(3) vs (2), power 85 vs 92",
-          "prob_after": 0.458
+          "detail": "(6) vs (2), power 67 vs 90",
+          "prob_after": 0.362
         },
         {
           "name": "Blue blood",
-          "detail": "Houston is Tier-2 blue blood (-0.02)",
-          "adjustment": -0.02,
-          "prob_after": 0.438
+          "detail": "North Carolina is Tier-1 blue blood (+0.04); Houston is Tier-2 blue blood (-0.02)",
+          "adjustment": 0.02,
+          "prob_after": 0.382
         },
         {
           "name": "Round scaling",
-          "detail": "Sweet 16 — flattened 10% toward 50/50",
-          "adjustment": 0.0062,
-          "prob_after": 0.4442
+          "detail": "Sweet 16 — flattened 6% toward 50/50",
+          "adjustment": 0.0071,
+          "prob_after": 0.3891
         }
       ],
-      "final_prob_team_a": 0.4442,
-      "final_prob_team_b": 0.5558,
-      "roll": 0.8405,
+      "final_prob_team_a": 0.3891,
+      "final_prob_team_b": 0.6109,
+      "roll": 0.5121,
       "winner": "Houston",
       "upset": false,
       "region": "South"
@@ -1790,9 +1784,9 @@
       "round": 4,
       "round_name": "Elite 8",
       "team_a": {
-        "name": "McNeese",
-        "seed": 12,
-        "conference": "Southland"
+        "name": "Florida",
+        "seed": 1,
+        "conference": "SEC"
       },
       "team_b": {
         "name": "Houston",
@@ -1802,33 +1796,21 @@
       "factors": [
         {
           "name": "Seed difference",
-          "detail": "(12) vs (2), power 45 vs 92",
-          "prob_after": 0.218
-        },
-        {
-          "name": "Blue blood",
-          "detail": "Houston is Tier-2 blue blood (-0.02)",
-          "adjustment": -0.02,
-          "prob_after": 0.198
-        },
-        {
-          "name": "Conference strength",
-          "detail": "Houston in power conf; Southland vs Big 12",
-          "adjustment": -0.03,
-          "prob_after": 0.168
+          "detail": "(1) vs (2), power 120 vs 90",
+          "prob_after": 0.68
         },
         {
           "name": "Round scaling",
-          "detail": "Elite 8 — flattened 15% toward 50/50",
-          "adjustment": 0.0498,
-          "prob_after": 0.2178
+          "detail": "Elite 8 — flattened 10% toward 50/50",
+          "adjustment": -0.018,
+          "prob_after": 0.662
         }
       ],
-      "final_prob_team_a": 0.2178,
-      "final_prob_team_b": 0.7822,
-      "roll": 0.263,
+      "final_prob_team_a": 0.662,
+      "final_prob_team_b": 0.338,
+      "roll": 0.9237,
       "winner": "Houston",
-      "upset": false,
+      "upset": true,
       "region": "South"
     },
     {
@@ -1847,7 +1829,7 @@
       "factors": [
         {
           "name": "Seed difference",
-          "detail": "(1) vs (16), power 100 vs 33",
+          "detail": "(1) vs (16), power 120 vs 33",
           "prob_after": 0.9
         },
         {
@@ -1865,7 +1847,7 @@
       ],
       "final_prob_team_a": 0.9,
       "final_prob_team_b": 0.1,
-      "roll": 0.0353,
+      "roll": 0.6354,
       "winner": "Michigan",
       "upset": false,
       "region": "Midwest"
@@ -1886,21 +1868,21 @@
       "factors": [
         {
           "name": "Seed difference",
-          "detail": "(8) vs (9), power 58 vs 54",
-          "prob_after": 0.524
+          "detail": "(8) vs (9), power 60 vs 57",
+          "prob_after": 0.518
         },
         {
           "name": "Conference strength",
           "detail": "Georgia in power conf; SEC vs A-10",
           "adjustment": 0.03,
-          "prob_after": 0.554
+          "prob_after": 0.548
         }
       ],
-      "final_prob_team_a": 0.554,
-      "final_prob_team_b": 0.446,
-      "roll": 0.3652,
-      "winner": "Georgia",
-      "upset": false,
+      "final_prob_team_a": 0.548,
+      "final_prob_team_b": 0.452,
+      "roll": 0.6569,
+      "winner": "Saint Louis",
+      "upset": true,
       "region": "Midwest"
     },
     {
@@ -1919,21 +1901,21 @@
       "factors": [
         {
           "name": "Seed difference",
-          "detail": "(5) vs (12), power 72 vs 45",
-          "prob_after": 0.662
+          "detail": "(5) vs (12), power 70 vs 46",
+          "prob_after": 0.644
         },
         {
           "name": "Conference strength",
           "detail": "Texas Tech in power conf; Big 12 vs MAC",
           "adjustment": 0.03,
-          "prob_after": 0.692
+          "prob_after": 0.674
         }
       ],
-      "final_prob_team_a": 0.692,
-      "final_prob_team_b": 0.308,
-      "roll": 0.7243,
-      "winner": "Akron",
-      "upset": true,
+      "final_prob_team_a": 0.674,
+      "final_prob_team_b": 0.326,
+      "roll": 0.0454,
+      "winner": "Texas Tech",
+      "upset": false,
       "region": "Midwest"
     },
     {
@@ -1952,21 +1934,21 @@
       "factors": [
         {
           "name": "Seed difference",
-          "detail": "(4) vs (13), power 78 vs 42",
-          "prob_after": 0.716
+          "detail": "(4) vs (13), power 78 vs 43",
+          "prob_after": 0.71
         },
         {
           "name": "Conference strength",
           "detail": "Alabama in power conf; SEC vs CAA",
           "adjustment": 0.03,
-          "prob_after": 0.746
+          "prob_after": 0.74
         }
       ],
-      "final_prob_team_a": 0.746,
-      "final_prob_team_b": 0.254,
-      "roll": 0.0098,
-      "winner": "Alabama",
-      "upset": false,
+      "final_prob_team_a": 0.74,
+      "final_prob_team_b": 0.26,
+      "roll": 0.8755,
+      "winner": "Hofstra",
+      "upset": true,
       "region": "Midwest"
     },
     {
@@ -1985,13 +1967,13 @@
       "factors": [
         {
           "name": "Seed difference",
-          "detail": "(6) vs (11), power 67 vs 48",
-          "prob_after": 0.614
+          "detail": "(6) vs (11), power 67 vs 50",
+          "prob_after": 0.602
         }
       ],
-      "final_prob_team_a": 0.614,
-      "final_prob_team_b": 0.386,
-      "roll": 0.3195,
+      "final_prob_team_a": 0.602,
+      "final_prob_team_b": 0.398,
+      "roll": 0.4399,
       "winner": "Tennessee",
       "upset": false,
       "region": "Midwest"
@@ -2012,19 +1994,19 @@
       "factors": [
         {
           "name": "Seed difference",
-          "detail": "(3) vs (14), power 85 vs 39",
-          "prob_after": 0.776
+          "detail": "(3) vs (14), power 84 vs 40",
+          "prob_after": 0.764
         },
         {
           "name": "Conference strength",
           "detail": "Virginia in power conf; ACC vs Horizon League",
           "adjustment": 0.03,
-          "prob_after": 0.806
+          "prob_after": 0.794
         }
       ],
-      "final_prob_team_a": 0.806,
-      "final_prob_team_b": 0.194,
-      "roll": 0.2494,
+      "final_prob_team_a": 0.794,
+      "final_prob_team_b": 0.206,
+      "roll": 0.0607,
       "winner": "Virginia",
       "upset": false,
       "region": "Midwest"
@@ -2045,25 +2027,25 @@
       "factors": [
         {
           "name": "Seed difference",
-          "detail": "(7) vs (10), power 62 vs 51",
-          "prob_after": 0.566
+          "detail": "(7) vs (10), power 63 vs 53",
+          "prob_after": 0.56
         },
         {
           "name": "Blue blood",
           "detail": "Kentucky is Tier-1 blue blood (+0.04)",
           "adjustment": 0.04,
-          "prob_after": 0.606
+          "prob_after": 0.6
         },
         {
           "name": "Conference strength",
           "detail": "Kentucky in power conf; SEC vs WCC",
           "adjustment": 0.03,
-          "prob_after": 0.636
+          "prob_after": 0.63
         }
       ],
-      "final_prob_team_a": 0.636,
-      "final_prob_team_b": 0.364,
-      "roll": 0.635,
+      "final_prob_team_a": 0.63,
+      "final_prob_team_b": 0.37,
+      "roll": 0.0672,
       "winner": "Kentucky",
       "upset": false,
       "region": "Midwest"
@@ -2084,19 +2066,19 @@
       "factors": [
         {
           "name": "Seed difference",
-          "detail": "(2) vs (15), power 92 vs 36",
-          "prob_after": 0.836
+          "detail": "(2) vs (15), power 90 vs 36",
+          "prob_after": 0.824
         },
         {
           "name": "Conference strength",
           "detail": "Iowa State in power conf; Big 12 vs OVC",
           "adjustment": 0.03,
-          "prob_after": 0.866
+          "prob_after": 0.854
         }
       ],
-      "final_prob_team_a": 0.866,
-      "final_prob_team_b": 0.134,
-      "roll": 0.1962,
+      "final_prob_team_a": 0.854,
+      "final_prob_team_b": 0.146,
+      "roll": 0.67,
       "winner": "Iowa State",
       "upset": false,
       "region": "Midwest"
@@ -2110,32 +2092,38 @@
         "conference": "Big Ten"
       },
       "team_b": {
-        "name": "Georgia",
-        "seed": 8,
-        "conference": "SEC"
+        "name": "Saint Louis",
+        "seed": 9,
+        "conference": "A-10"
       },
       "factors": [
         {
           "name": "Seed difference",
-          "detail": "(1) vs (8), power 100 vs 58",
-          "prob_after": 0.752
+          "detail": "(1) vs (9), power 120 vs 57",
+          "prob_after": 0.878
         },
         {
           "name": "Home court",
           "detail": "Michigan is a 1-seed playing in home region (Round of 32)",
           "adjustment": 0.03,
-          "prob_after": 0.782
+          "prob_after": 0.9
+        },
+        {
+          "name": "Conference strength",
+          "detail": "Michigan in power conf; Big Ten vs A-10",
+          "adjustment": 0.03,
+          "prob_after": 0.9
         },
         {
           "name": "Round scaling",
-          "detail": "Round of 32 — flattened 5% toward 50/50",
-          "adjustment": -0.0141,
-          "prob_after": 0.7679
+          "detail": "Round of 32 — flattened 3% toward 50/50",
+          "adjustment": -0.012,
+          "prob_after": 0.888
         }
       ],
-      "final_prob_team_a": 0.7679,
-      "final_prob_team_b": 0.2321,
-      "roll": 0.2789,
+      "final_prob_team_a": 0.888,
+      "final_prob_team_b": 0.112,
+      "roll": 0.1244,
       "winner": "Michigan",
       "upset": false,
       "region": "Midwest"
@@ -2144,38 +2132,38 @@
       "round": 2,
       "round_name": "Round of 32",
       "team_a": {
-        "name": "Akron",
-        "seed": 12,
-        "conference": "MAC"
+        "name": "Texas Tech",
+        "seed": 5,
+        "conference": "Big 12"
       },
       "team_b": {
-        "name": "Alabama",
-        "seed": 4,
-        "conference": "SEC"
+        "name": "Hofstra",
+        "seed": 13,
+        "conference": "CAA"
       },
       "factors": [
         {
           "name": "Seed difference",
-          "detail": "(12) vs (4), power 45 vs 78",
-          "prob_after": 0.302
+          "detail": "(5) vs (13), power 70 vs 43",
+          "prob_after": 0.662
         },
         {
           "name": "Conference strength",
-          "detail": "Alabama in power conf; MAC vs SEC",
-          "adjustment": -0.03,
-          "prob_after": 0.272
+          "detail": "Texas Tech in power conf; Big 12 vs CAA",
+          "adjustment": 0.03,
+          "prob_after": 0.692
         },
         {
           "name": "Round scaling",
-          "detail": "Round of 32 — flattened 5% toward 50/50",
-          "adjustment": 0.0114,
-          "prob_after": 0.2834
+          "detail": "Round of 32 — flattened 3% toward 50/50",
+          "adjustment": -0.0058,
+          "prob_after": 0.6862
         }
       ],
-      "final_prob_team_a": 0.2834,
-      "final_prob_team_b": 0.7166,
-      "roll": 0.0203,
-      "winner": "Akron",
+      "final_prob_team_a": 0.6862,
+      "final_prob_team_b": 0.3138,
+      "roll": 0.7584,
+      "winner": "Hofstra",
       "upset": true,
       "region": "Midwest"
     },
@@ -2195,21 +2183,21 @@
       "factors": [
         {
           "name": "Seed difference",
-          "detail": "(6) vs (3), power 67 vs 85",
-          "prob_after": 0.392
+          "detail": "(6) vs (3), power 67 vs 84",
+          "prob_after": 0.398
         },
         {
           "name": "Round scaling",
-          "detail": "Round of 32 — flattened 5% toward 50/50",
-          "adjustment": 0.0054,
-          "prob_after": 0.3974
+          "detail": "Round of 32 — flattened 3% toward 50/50",
+          "adjustment": 0.0031,
+          "prob_after": 0.4011
         }
       ],
-      "final_prob_team_a": 0.3974,
-      "final_prob_team_b": 0.6026,
-      "roll": 0.5534,
-      "winner": "Virginia",
-      "upset": false,
+      "final_prob_team_a": 0.4011,
+      "final_prob_team_b": 0.5989,
+      "roll": 0.2751,
+      "winner": "Tennessee",
+      "upset": true,
       "region": "Midwest"
     },
     {
@@ -2228,27 +2216,27 @@
       "factors": [
         {
           "name": "Seed difference",
-          "detail": "(7) vs (2), power 62 vs 92",
-          "prob_after": 0.32
+          "detail": "(7) vs (2), power 63 vs 90",
+          "prob_after": 0.338
         },
         {
           "name": "Blue blood",
           "detail": "Kentucky is Tier-1 blue blood (+0.04)",
           "adjustment": 0.04,
-          "prob_after": 0.36
+          "prob_after": 0.378
         },
         {
           "name": "Round scaling",
-          "detail": "Round of 32 — flattened 5% toward 50/50",
-          "adjustment": 0.007,
-          "prob_after": 0.367
+          "detail": "Round of 32 — flattened 3% toward 50/50",
+          "adjustment": 0.0037,
+          "prob_after": 0.3817
         }
       ],
-      "final_prob_team_a": 0.367,
-      "final_prob_team_b": 0.633,
-      "roll": 0.6244,
-      "winner": "Iowa State",
-      "upset": false,
+      "final_prob_team_a": 0.3817,
+      "final_prob_team_b": 0.6183,
+      "roll": 0.2754,
+      "winner": "Kentucky",
+      "upset": true,
       "region": "Midwest"
     },
     {
@@ -2260,32 +2248,32 @@
         "conference": "Big Ten"
       },
       "team_b": {
-        "name": "Akron",
-        "seed": 12,
-        "conference": "MAC"
+        "name": "Hofstra",
+        "seed": 13,
+        "conference": "CAA"
       },
       "factors": [
         {
           "name": "Seed difference",
-          "detail": "(1) vs (12), power 100 vs 45",
-          "prob_after": 0.83
+          "detail": "(1) vs (13), power 120 vs 43",
+          "prob_after": 0.9
         },
         {
           "name": "Conference strength",
-          "detail": "Michigan in power conf; Big Ten vs MAC",
+          "detail": "Michigan in power conf; Big Ten vs CAA",
           "adjustment": 0.03,
-          "prob_after": 0.86
+          "prob_after": 0.9
         },
         {
           "name": "Round scaling",
-          "detail": "Sweet 16 — flattened 10% toward 50/50",
-          "adjustment": -0.036,
-          "prob_after": 0.824
+          "detail": "Sweet 16 — flattened 6% toward 50/50",
+          "adjustment": -0.024,
+          "prob_after": 0.876
         }
       ],
-      "final_prob_team_a": 0.824,
-      "final_prob_team_b": 0.176,
-      "roll": 0.1972,
+      "final_prob_team_a": 0.876,
+      "final_prob_team_b": 0.124,
+      "roll": 0.8406,
       "winner": "Michigan",
       "upset": false,
       "region": "Midwest"
@@ -2294,33 +2282,39 @@
       "round": 3,
       "round_name": "Sweet 16",
       "team_a": {
-        "name": "Virginia",
-        "seed": 3,
-        "conference": "ACC"
+        "name": "Tennessee",
+        "seed": 6,
+        "conference": "SEC"
       },
       "team_b": {
-        "name": "Iowa State",
-        "seed": 2,
-        "conference": "Big 12"
+        "name": "Kentucky",
+        "seed": 7,
+        "conference": "SEC"
       },
       "factors": [
         {
           "name": "Seed difference",
-          "detail": "(3) vs (2), power 85 vs 92",
-          "prob_after": 0.458
+          "detail": "(6) vs (7), power 67 vs 63",
+          "prob_after": 0.524
+        },
+        {
+          "name": "Blue blood",
+          "detail": "Kentucky is Tier-1 blue blood (-0.04)",
+          "adjustment": -0.04,
+          "prob_after": 0.484
         },
         {
           "name": "Round scaling",
-          "detail": "Sweet 16 — flattened 10% toward 50/50",
-          "adjustment": 0.0042,
-          "prob_after": 0.4622
+          "detail": "Sweet 16 — flattened 6% toward 50/50",
+          "adjustment": 0.001,
+          "prob_after": 0.485
         }
       ],
-      "final_prob_team_a": 0.4622,
-      "final_prob_team_b": 0.5378,
-      "roll": 0.7342,
-      "winner": "Iowa State",
-      "upset": false,
+      "final_prob_team_a": 0.485,
+      "final_prob_team_b": 0.515,
+      "roll": 0.7548,
+      "winner": "Kentucky",
+      "upset": true,
       "region": "Midwest"
     },
     {
@@ -2332,27 +2326,33 @@
         "conference": "Big Ten"
       },
       "team_b": {
-        "name": "Iowa State",
-        "seed": 2,
-        "conference": "Big 12"
+        "name": "Kentucky",
+        "seed": 7,
+        "conference": "SEC"
       },
       "factors": [
         {
           "name": "Seed difference",
-          "detail": "(1) vs (2), power 100 vs 92",
-          "prob_after": 0.548
+          "detail": "(1) vs (7), power 120 vs 63",
+          "prob_after": 0.842
+        },
+        {
+          "name": "Blue blood",
+          "detail": "Kentucky is Tier-1 blue blood (-0.04)",
+          "adjustment": -0.04,
+          "prob_after": 0.802
         },
         {
           "name": "Round scaling",
-          "detail": "Elite 8 — flattened 15% toward 50/50",
-          "adjustment": -0.0072,
-          "prob_after": 0.5408
+          "detail": "Elite 8 — flattened 10% toward 50/50",
+          "adjustment": -0.0302,
+          "prob_after": 0.7718
         }
       ],
-      "final_prob_team_a": 0.5408,
-      "final_prob_team_b": 0.4592,
-      "roll": 0.5864,
-      "winner": "Iowa State",
+      "final_prob_team_a": 0.7718,
+      "final_prob_team_b": 0.2282,
+      "roll": 0.7743,
+      "winner": "Kentucky",
       "upset": true,
       "region": "Midwest"
     },
@@ -2360,9 +2360,9 @@
       "round": 5,
       "round_name": "Final Four",
       "team_a": {
-        "name": "South Florida",
-        "seed": 11,
-        "conference": "AAC"
+        "name": "Duke",
+        "seed": 1,
+        "conference": "ACC"
       },
       "team_b": {
         "name": "Houston",
@@ -2372,32 +2372,26 @@
       "factors": [
         {
           "name": "Seed difference",
-          "detail": "(11) vs (2), power 48 vs 92",
-          "prob_after": 0.236
+          "detail": "(1) vs (2), power 120 vs 90",
+          "prob_after": 0.68
         },
         {
           "name": "Blue blood",
-          "detail": "Houston is Tier-2 blue blood (-0.02)",
-          "adjustment": -0.02,
-          "prob_after": 0.216
-        },
-        {
-          "name": "Conference strength",
-          "detail": "Houston in power conf; AAC vs Big 12",
-          "adjustment": -0.03,
-          "prob_after": 0.186
+          "detail": "Duke is Tier-1 blue blood (+0.04); Houston is Tier-2 blue blood (-0.02)",
+          "adjustment": 0.02,
+          "prob_after": 0.7
         },
         {
           "name": "Round scaling",
-          "detail": "Final Four — flattened 20% toward 50/50",
-          "adjustment": 0.0628,
-          "prob_after": 0.2488
+          "detail": "Final Four — flattened 13% toward 50/50",
+          "adjustment": -0.026,
+          "prob_after": 0.674
         }
       ],
-      "final_prob_team_a": 0.2488,
-      "final_prob_team_b": 0.7512,
-      "roll": 0.8611,
-      "winner": "Houston",
+      "final_prob_team_a": 0.674,
+      "final_prob_team_b": 0.326,
+      "roll": 0.5636,
+      "winner": "Duke",
       "upset": false,
       "region": "Final Four"
     },
@@ -2405,32 +2399,38 @@
       "round": 5,
       "round_name": "Final Four",
       "team_a": {
-        "name": "Wisconsin",
-        "seed": 5,
-        "conference": "Big Ten"
+        "name": "Arizona",
+        "seed": 1,
+        "conference": "Big 12"
       },
       "team_b": {
-        "name": "Iowa State",
-        "seed": 2,
-        "conference": "Big 12"
+        "name": "Kentucky",
+        "seed": 7,
+        "conference": "SEC"
       },
       "factors": [
         {
           "name": "Seed difference",
-          "detail": "(5) vs (2), power 72 vs 92",
-          "prob_after": 0.38
+          "detail": "(1) vs (7), power 120 vs 63",
+          "prob_after": 0.842
+        },
+        {
+          "name": "Blue blood",
+          "detail": "Kentucky is Tier-1 blue blood (-0.04)",
+          "adjustment": -0.04,
+          "prob_after": 0.802
         },
         {
           "name": "Round scaling",
-          "detail": "Final Four — flattened 20% toward 50/50",
-          "adjustment": 0.024,
-          "prob_after": 0.404
+          "detail": "Final Four — flattened 13% toward 50/50",
+          "adjustment": -0.0393,
+          "prob_after": 0.7627
         }
       ],
-      "final_prob_team_a": 0.404,
-      "final_prob_team_b": 0.596,
-      "roll": 0.7576,
-      "winner": "Iowa State",
+      "final_prob_team_a": 0.7627,
+      "final_prob_team_b": 0.2373,
+      "roll": 0.2615,
+      "winner": "Arizona",
       "upset": false,
       "region": "Final Four"
     },
@@ -2438,38 +2438,38 @@
       "round": 6,
       "round_name": "Championship",
       "team_a": {
-        "name": "Houston",
-        "seed": 2,
-        "conference": "Big 12"
+        "name": "Duke",
+        "seed": 1,
+        "conference": "ACC"
       },
       "team_b": {
-        "name": "Iowa State",
-        "seed": 2,
+        "name": "Arizona",
+        "seed": 1,
         "conference": "Big 12"
       },
       "factors": [
         {
           "name": "Seed difference",
-          "detail": "(2) vs (2), power 92 vs 92",
+          "detail": "(1) vs (1), power 120 vs 120",
           "prob_after": 0.5
         },
         {
           "name": "Blue blood",
-          "detail": "Houston is Tier-2 blue blood (+0.02)",
-          "adjustment": 0.02,
-          "prob_after": 0.52
+          "detail": "Duke is Tier-1 blue blood (+0.04)",
+          "adjustment": 0.04,
+          "prob_after": 0.54
         },
         {
           "name": "Round scaling",
-          "detail": "Championship — flattened 25% toward 50/50",
-          "adjustment": -0.005,
-          "prob_after": 0.515
+          "detail": "Championship — flattened 16% toward 50/50",
+          "adjustment": -0.0064,
+          "prob_after": 0.5336
         }
       ],
-      "final_prob_team_a": 0.515,
-      "final_prob_team_b": 0.485,
-      "roll": 0.6394,
-      "winner": "Iowa State",
+      "final_prob_team_a": 0.5336,
+      "final_prob_team_b": 0.4664,
+      "roll": 0.9723,
+      "winner": "Arizona",
       "upset": false,
       "region": "Championship"
     }
