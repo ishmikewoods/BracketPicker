@@ -778,11 +778,12 @@
 
     <div class="rule-card">
       <h3>Seed Weighting <span class="rule-tag weight">Core</span></h3>
-      <p>Each seed gap adds probability to the favorite. Capped so no game is a foregone conclusion.</p>
+      <p>Non-linear power ratings favor top 4 seeds, reflecting their historically dominant tournament performance.</p>
       <div class="rule-detail">
-        Formula: <code>50% + (seed_diff x 3.3%)</code><br>
-        Cap: <code>90% max / 10% min</code><br>
-        Example: 1 vs 16 = 90%, 8 vs 9 = 53.3%
+        Seeds 1–4: power gaps of <code>7–8</code> per seed<br>
+        Seeds 5–8: power gaps of <code>4–5</code> per seed<br>
+        Seeds 9–16: power gaps of <code>3</code> per seed<br>
+        Cap: <code>90% max / 10% min</code>
       </div>
     </div>
 
@@ -792,6 +793,14 @@
       <div class="rule-detail">
         Tier 1 (<code>+4%</code>): Duke, Kansas, UConn, Kentucky, North Carolina, UCLA<br>
         Tier 2 (<code>+2%</code>): Gonzaga, Villanova, Michigan St, Florida, Houston
+      </div>
+    </div>
+
+    <div class="rule-card">
+      <h3>Home Court <span class="rule-tag modifier">Modifier</span></h3>
+      <p>1-seeds play their first two games in their home region, giving them a crowd advantage.</p>
+      <div class="rule-detail">
+        Bonus: <code>+3%</code> for 1-seeds in R64 and R32
       </div>
     </div>
 

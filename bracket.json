@@ -1,8 +1,8 @@
 {
   "tournament": "2026 NCAA Men's Basketball Tournament",
   "final_four_matchups": {
-    "semifinal1": ["East", "West"],
-    "semifinal2": ["South", "Midwest"]
+    "semifinal1": ["East", "South"],
+    "semifinal2": ["West", "Midwest"]
   },
   "play_in_games": [
     { "slot_region": "South", "slot_seed": 16, "team1": "Prairie View", "team1_conference": "SWAC", "team2": "Lehigh", "team2_conference": "Patriot League" },

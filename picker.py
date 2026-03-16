@@ -40,8 +40,18 @@ MIN_WEIGHT = 0.10
 BLUE_BLOOD_T1_BONUS = 0.04
 BLUE_BLOOD_T2_BONUS = 0.02
 POWER_CONF_BONUS = 0.03
+HOME_COURT_BONUS = 0.03          # 1-seeds play first two rounds in home region
 RIVALRY_FLATTEN = {3: 0.35, 2: 0.20, 1: 0.10}
 ROUND_FLATTEN = {1: 0.0, 2: 0.05, 3: 0.10, 4: 0.15, 5: 0.20, 6: 0.25}
+
+# Non-linear seed power ratings — top 4 seeds have steeper gaps
+SEED_POWER = {
+    1: 100, 2: 92, 3: 85, 4: 78,   # Top 4: gaps of 7-8
+    5: 72,  6: 67, 7: 62, 8: 58,   # 5-8: gaps of 4-5
+    9: 54, 10: 51, 11: 48, 12: 45, # 9-12: gaps of 3
+    13: 42, 14: 39, 15: 36, 16: 33 # 13-16: gaps of 3
+}
+POWER_SCALE = 0.006  # converts power diff to probability offset
 ROUND_NAMES = {
     1: "Round of 64", 2: "Round of 32", 3: "Sweet 16",
     4: "Elite 8", 5: "Final Four", 6: "Championship",
@@ -61,15 +71,14 @@ def evaluate_matchup(team_a, seed_a, conf_a, team_b, seed_b, conf_b, round_num):
     """Compute win probability for team_a with a full factor breakdown."""
     factors = []
 
-    # 1. Seed base probability
-    if seed_a == seed_b:
-        prob = 0.50
-    else:
-        diff = seed_b - seed_a
-        prob = clamp(0.50 + diff * 0.033)
+    # 1. Seed base probability (non-linear — top 4 seeds are notably stronger)
+    power_a = SEED_POWER.get(seed_a, 33)
+    power_b = SEED_POWER.get(seed_b, 33)
+    power_diff = power_a - power_b
+    prob = clamp(0.50 + power_diff * POWER_SCALE)
     factors.append({
         "name": "Seed difference",
-        "detail": f"({seed_a}) vs ({seed_b}), diff={seed_b - seed_a}",
+        "detail": f"({seed_a}) vs ({seed_b}), power {power_a} vs {power_b}",
         "prob_after": round(prob, 4),
     })
 
@@ -97,7 +106,24 @@ def evaluate_matchup(team_a, seed_a, conf_a, team_b, seed_b, conf_b, round_num):
             "prob_after": round(prob, 4),
         })
 
-    # 3. Conference strength
+    # 3. Home court advantage (1-seeds in R64 and R32)
+    hc_adj = 0.0
+    if round_num <= 2:
+        if seed_a == 1:
+            hc_adj = HOME_COURT_BONUS
+        elif seed_b == 1:
+            hc_adj = -HOME_COURT_BONUS
+    if hc_adj != 0.0:
+        prob = clamp(prob + hc_adj)
+        favored = team_a if hc_adj > 0 else team_b
+        factors.append({
+            "name": "Home court",
+            "detail": f"{favored} is a 1-seed playing in home region ({ROUND_NAMES[round_num]})",
+            "adjustment": round(hc_adj, 4),
+            "prob_after": round(prob, 4),
+        })
+
+    # 4. Conference strength
     a_power = conf_a in POWER_CONFERENCES
     b_power = conf_b in POWER_CONFERENCES
     conf_adj = 0.0
@@ -115,7 +141,7 @@ def evaluate_matchup(team_a, seed_a, conf_a, team_b, seed_b, conf_b, round_num):
             "prob_after": round(prob, 4),
         })
 
-    # 4. Rivalry
+    # 5. Rivalry
     rival_key = frozenset({team_a, team_b})
     if rival_key in RIVALRY_MAP:
         intensity = RIVALRY_MAP[rival_key]
@@ -129,7 +155,7 @@ def evaluate_matchup(team_a, seed_a, conf_a, team_b, seed_b, conf_b, round_num):
             "prob_after": round(prob, 4),
         })
 
-    # 5. Round scaling
+    # 6. Round scaling
     flatten_pct = ROUND_FLATTEN.get(round_num, 0)
     if flatten_pct > 0:
         old_prob = prob

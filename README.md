@@ -17,12 +17,15 @@ Outputs a full bracket to the console with detailed factor breakdowns for every 
 Each matchup starts with a base win probability derived from seed difference, then gets adjusted by several factors:
 
 ### Seed-Based Weighting
-The core of every pick. Bigger seed gaps mean heavier favorites, but probability is capped at 90/10 — no game is ever a sure thing in March.
+The core of every pick. Uses non-linear power ratings where the top 4 seeds have steeper gaps, reflecting their historically dominant tournament performance. Seeds 1–4 have power gaps of 7–8 per seed, while lower seeds have gaps of 3–5. Probability is capped at 90/10 — no game is ever a sure thing in March.
 
 ### Blue Blood Bonus
 Historically elite tournament programs get a small edge reflecting their recruiting depth, coaching experience, and winning culture.
 - **Tier 1** (+4%): Duke, Kansas, UConn, Kentucky, North Carolina, UCLA
 - **Tier 2** (+2%): Gonzaga, Villanova, Michigan St, Florida, Houston
+
+### Home Court Advantage
+1-seeds play their first two rounds in their home region, giving them a +3% bonus in the Round of 64 and Round of 32.
 
 ### Conference Strength
 Teams from power conferences (ACC, Big Ten, Big 12, SEC, Big East) get a +3% edge against mid-major opponents, reflecting depth of schedule.
