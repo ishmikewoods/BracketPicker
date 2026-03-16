@@ -242,6 +242,11 @@
     transform: scale(1.02);
     border-color: var(--card-border-hover);
   }
+  .matchup.path-highlight {
+    background: var(--card-hover);
+    border-color: var(--winner);
+    box-shadow: 0 0 6px rgba(74, 222, 128, 0.3);
+  }
   .matchup.upset {
     border-color: var(--upset);
   }
@@ -1109,6 +1114,10 @@ function createMatchupCard(m) {
   const card = document.createElement('div');
   card.className = 'matchup' + (m.upset ? ' upset' : '');
   card.onclick = () => showDetail(m);
+  card.dataset.teamA = m.team_a.name;
+  card.dataset.teamB = m.team_b.name;
+  card.dataset.round = m.round;
+  card.dataset.region = m.region || '';
 
   const aWon = m.winner === m.team_a.name;
   const bWon = m.winner === m.team_b.name;
@@ -1127,7 +1136,34 @@ function createMatchupCard(m) {
     </div>
   `;
 
+  if (m.round > 1) {
+    card.addEventListener('mouseenter', () => highlightPath(m));
+    card.addEventListener('mouseleave', clearHighlights);
+  }
+
   return card;
+}
+
+function highlightPath(m) {
+  clearHighlights();
+  const teamA = m.team_a.name;
+  const teamB = m.team_b.name;
+  const targetRound = m.round;
+
+  const allCards = document.querySelectorAll('.matchup');
+  for (const card of allCards) {
+    const cardRound = parseInt(card.dataset.round);
+    if (cardRound >= targetRound) continue;
+    const a = card.dataset.teamA;
+    const b = card.dataset.teamB;
+    if (a === teamA || b === teamA || a === teamB || b === teamB) {
+      card.classList.add('path-highlight');
+    }
+  }
+}
+
+function clearHighlights() {
+  document.querySelectorAll('.path-highlight').forEach(el => el.classList.remove('path-highlight'));
 }
 
 function showDetail(m) {
